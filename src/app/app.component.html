@@ -11,7 +11,7 @@
 </div>-->
 
 <div>
-  <app-price-quote (lastPrice)="priceQuoteHandler($event)"></app-price-quote>
+  <app-price-quote (priceChange)="priceQuoteHandler($event)"></app-price-quote>
 </div>
 <div>
   这是在报价组件外部，股票代码是{{priceQuote.stockCode}},<br>

@@ -10,7 +10,7 @@ export class PriceQuoteComponent implements OnInit {
   stockCode: string = "IBM";
   stockPrice: number;
 
-  @Output()
+  @Output("priceChange")
   lastPrice: EventEmitter<PriceQuote> = new EventEmitter();
 
   constructor() {
