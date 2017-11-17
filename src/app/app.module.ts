@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { LifeComponent } from './life/life.component';
 import { OrderComponent } from './order/order.component';
 import { PriceQuoteComponent } from './price-quote/price-quote.component';
+import { ChildComponent } from './child/child.component';
+import { ParentComponent } from './parent/parent.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LifeComponent,
     OrderComponent,
-    PriceQuoteComponent
+    PriceQuoteComponent,
+    ChildComponent,
+    ParentComponent
   ],
   imports: [
     BrowserModule,
