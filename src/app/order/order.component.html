@@ -1,6 +1,7 @@
 <div>
-  我是子组件
+  我是下单组件
 </div>
 <div>
-  我买了{{amount}}手{{stockCode}}股票。
+  我买了{{amount}}手{{priceQuote.stockCode}}股票。
+  买入价格是{{priceQuote.lasePrice | number: '2.2-2'}}
 </div>
